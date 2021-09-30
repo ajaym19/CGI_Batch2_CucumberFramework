@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "./src/test/java/Features",
 		glue = "StepDefinition",
-		dryRun = true,
+		dryRun = false,
 		plugin = {"html:Reports/HTMLReport",
 				"json:Reports/Jsonreport.json",
 				"junit:Reports/JUnitReport.xml"}

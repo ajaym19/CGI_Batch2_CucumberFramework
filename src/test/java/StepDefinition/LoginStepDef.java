@@ -54,4 +54,20 @@ public class LoginStepDef {
 	public void user_should_not_be_able_to_login_successfully() {
 	    driver.quit();
 	}
+	
+	@When("User enters username as {string}")
+	public void user_enters_username_as(String username) {
+		driver.findElement(By.id("txtUsername")).sendKeys(username); 
+	}
+	@When("User enters password as {string}")
+	public void user_enters_password_as(String password) {
+		driver.findElement(By.id("txtPassword")).sendKeys(password);
+	}
+	
+	@When("^User enters (.+) and (.+)$")
+    public void user_enters_and(String username, String password) throws Throwable {
+		driver.findElement(By.id("txtUsername")).sendKeys(username);
+		driver.findElement(By.id("txtPassword")).sendKeys(password);
+    }
+
 }
