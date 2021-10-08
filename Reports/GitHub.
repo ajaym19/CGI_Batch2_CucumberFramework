@@ -1,0 +1,44 @@
+
+Cucumber with TestNG>> Yes
+Running Cucumber Project from Myrunner >> Done
+Running Cucumber Project from testNG.xml >> Done
+Running Cucumber Project from Maven >> mvn clean install
+Running Cucumber Project from Jenkins
+
+Cucumber Reports
+
+Cucumber Advanced Reports
+
+
+GitHub.
+a collaborative tool
+
+
+Convert the Cucumber Project in TestNG
+
+
+init >> git init
+Link the project to web repository
+do some changes in the code >> unstaged area
+add these changes >> staged area >> 
+git add .
+commit the code
+git commit -m "message here"
+
+push the new code to the repository
+git push origin master
+
+
+
+Create 2 projects
+1. POM+PF+TestNG+Properties+Extent+OOPS Concepts
+2. Cucumber+TestNG+CucumberReporting+CucumberAdvancedReporting
+3. Convert these projects to Maven Project
+4. Configure them in Jenkins
+5. Push the code in GitGub
+6. Share the Github URL with me
+
+
+
+
+

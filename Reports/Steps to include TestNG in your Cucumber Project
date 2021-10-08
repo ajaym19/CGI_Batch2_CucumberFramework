@@ -1,0 +1,35 @@
+Steps to include TestNG in your Cucumber Project
+
+1. Pom.xml file
+	Remove cucumber-jvm dependency
+	remove junit dependency
+	remove cucumber-junit dependency
+	add testNG dependency
+	add Cucumber-testng dependency
+	Also, make sure that the cucumber-java version is same as cucumber-testng version (6.11.0)
+
+2. In My Runner class
+	Remove this line >> @RunWith(Cucumber.class)
+	Delete all the import statements
+	Import Cucumber Options from io.Cucumber.testNG
+	Extent the TestRunner class to AbstractTestNGCucumberTests
+		public class TestRunner extends AbstractTestNGCucumberTests{
+
+		}
+
+
+3. On Project Level
+	Right Click on Project >> TestNG >> Convert to TestNG
+	A new testng.xml file should get created
+
+
+Homework:
+1. Install Jenkins on your machine and keep ready
+2. Create an account on Github and save your username and password somewhere safe
+3. Install Maven on your machine and set the environment variables
+
+Run from Maven:
+1. Added maven surefire plugin
+2. Added two properties
+
+Generate Advanced Cucumber report

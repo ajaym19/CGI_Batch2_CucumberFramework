@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-08T11:44:33.390Z",
+        "start_timestamp": "2021-10-08T11:46:26.629Z",
         "line": 31,
         "name": "Login feature using scenario outline",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11336429000,
+              "duration": 9943328000,
               "status": "passed"
             },
             "line": 25,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 308007000,
+              "duration": 297542000,
               "status": "passed"
             },
             "line": 26,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3980916000,
+              "duration": 3431237000,
               "status": "passed"
             },
             "line": 27,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 266376000,
+              "duration": 223889000,
               "status": "passed"
             },
             "line": 28,
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-08T11:44:49.383Z",
+        "start_timestamp": "2021-10-08T11:46:40.589Z",
         "line": 32,
         "name": "Login feature using scenario outline",
         "description": "",
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7106608000,
+              "duration": 6889877000,
               "status": "passed"
             },
             "line": 25,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 263851000,
+              "duration": 251216000,
               "status": "passed"
             },
             "line": 26,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 722034000,
+              "duration": 706267000,
               "status": "passed"
             },
             "line": 27,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 211921000,
+              "duration": 177762000,
               "status": "passed"
             },
             "line": 28,
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-08T11:44:57.724Z",
+        "start_timestamp": "2021-10-08T11:46:48.669Z",
         "line": 33,
         "name": "Login feature using scenario outline",
         "description": "",
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6716721000,
+              "duration": 8830127000,
               "status": "passed"
             },
             "line": 25,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 297861000,
+              "duration": 261327000,
               "status": "passed"
             },
             "line": 26,
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 705126000,
+              "duration": 713083000,
               "status": "passed"
             },
             "line": 27,
@@ -197,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 164745000,
+              "duration": 163159000,
               "status": "passed"
             },
             "line": 28,

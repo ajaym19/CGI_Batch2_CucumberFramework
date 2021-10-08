@@ -1,22 +1,17 @@
 package MyRunner;
 
-import org.junit.runner.RunWith;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-
-@RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "./src/test/java/Features",
-		glue = "StepDefinition",
-		dryRun = false,
-		plugin = {"html:Reports/HTMLReport",
-				"json:Reports/Jsonreport.json",
-				"junit:Reports/JUnitReport.xml"}
-		
-		)
+		features = "./src/test/java/Features", 
+		glue = "StepDefinition", 
+		dryRun = false, 
+		plugin = {
+		"html:Reports/HTMLReport", "json:target/Jsonreport.json", "junit:Reports/JUnitReport.xml" }
 
+)
 
-public class TestRunner {
+public class TestRunner extends AbstractTestNGCucumberTests{
 
 }

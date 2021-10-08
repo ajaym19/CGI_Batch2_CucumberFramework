@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="30.918">
-    <testcase classname="OrangeHRM Login Functionality" name="Login feature using scenario outline" time="14.437">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="32.307">
+    <testcase classname="OrangeHRM Login Functionality" name="Login feature using scenario outline" time="13.926">
         <system-out>
             <![CDATA[Given User is on Login Page.................................................passed
 When User enters Admin and admin123.........................................passed
@@ -9,7 +9,7 @@ Then User should be able to login successfully..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="OrangeHRM Login Functionality" name="Login feature using scenario outline 2" time="7.479">
+    <testcase classname="OrangeHRM Login Functionality" name="Login feature using scenario outline 2" time="8.029">
         <system-out>
             <![CDATA[Given User is on Login Page.................................................passed
 When User enters test and test123...........................................passed
@@ -18,7 +18,7 @@ Then User should be able to login successfully..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="OrangeHRM Login Functionality" name="Login feature using scenario outline 3" time="8.443">
+    <testcase classname="OrangeHRM Login Functionality" name="Login feature using scenario outline 3" time="9.971">
         <system-out>
             <![CDATA[Given User is on Login Page.................................................passed
 When User enters abc and abc123.............................................passed
